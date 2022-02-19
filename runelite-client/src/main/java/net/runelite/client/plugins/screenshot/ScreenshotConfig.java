@@ -97,15 +97,6 @@ public interface ScreenshotConfig extends Config
 	}
 
 	@ConfigItem(
-		keyName = "screenshotFineSubdirectories",
-		name = "Screenshot Fine Subdirectories",
-		description = "Store screenshots in finer subdirectories that are more specific. ie, " +
-			"Level Up screenshots would be sorted by Skill",
-		position = 5
-	)
-	default boolean screenshotFineSubdirectories() {return false;}
-
-	@ConfigItem(
 		keyName = "rewards",
 		name = "Screenshot Rewards",
 		description = "Configures whether screenshots are taken of clues, barrows, and quest completion",
